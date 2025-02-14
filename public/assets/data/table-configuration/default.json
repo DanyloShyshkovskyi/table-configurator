@@ -1,0 +1,73 @@
+{
+  "tableImage": "/assets/images/table.png",
+  "spots": [
+    {
+      "type": "tableware",
+      "spots": [
+        { "id": 1, "x": 75, "y": 200 },
+        { "id": 2, "x": 575, "y": 200 },
+        { "id": 3, "x": 75, "y": 530 },
+        { "id": 4, "x": 575, "y": 530 },
+        { "id": 5, "x": 75, "y": 860 },
+        { "id": 6, "x": 575, "y": 860 },
+        { "id": 7, "x": 75, "y": 1190 },
+        { "id": 8, "x": 575, "y": 1190 }
+      ]
+    },
+    {
+      "type": "meal",
+      "spots": [
+        { "id": 1, "x": 300, "y": 200 },
+        { "id": 2, "x": 300, "y": 530 },
+        { "id": 3, "x": 300, "y": 860 },
+        { "id": 4, "x": 300, "y": 1190 },
+        { "id": 5, "x": 300, "y": 200 },
+        { "id": 6, "x": 300, "y": 530 },
+        { "id": 7, "x": 300, "y": 860 },
+        { "id": 8, "x": 300, "y": 1190 }
+      ]
+    }
+  ],
+  "elements": {
+    "tableware": {
+      "name": "Tableware",
+      "items": [
+        {
+          "id": 1,
+          "name": "Wooden Plate",
+          "image": "/assets/images/plates/plate1.png"
+        },
+        {
+          "id": 2,
+          "name": "Classic Plate",
+          "image": "/assets/images/plates/plate2.png"
+        },
+        {
+          "id": 3,
+          "name": "Modern Plate",
+          "image": "/assets/images/plates/plate3.png"
+        }
+      ]
+    },
+    "meal": {
+      "name": "Meals",
+      "items": [
+        {
+          "id": 1,
+          "name": "Spaghetti",
+          "image": "/assets/images/dishes/dish1.png"
+        },
+        {
+          "id": 2,
+          "name": "Pizza",
+          "image": "/assets/images/dishes/dish2.png"
+        },
+        {
+          "id": 3,
+          "name": "Pasta with Vegetables",
+          "image": "/assets/images/dishes/dish3.png"
+        }
+      ]
+    }
+  }
+}
