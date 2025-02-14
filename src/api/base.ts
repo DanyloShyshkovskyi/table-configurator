@@ -1,7 +1,7 @@
 import axios, { AxiosRequestConfig } from 'axios'
 
 export const apiInstance = axios.create({
-  baseURL: 'http://localhost:5173/',
+  baseURL: 'https://table-configurator-chi.vercel.app',
   withCredentials: false,
   headers: {
     'Content-Type': 'application/json',
