@@ -1,7 +1,9 @@
 import axios, { AxiosRequestConfig } from 'axios'
 
+import { API_URL } from '../config/env'
+
 export const apiInstance = axios.create({
-  baseURL: 'https://table-configurator-chi.vercel.app',
+  baseURL: API_URL,
   withCredentials: false,
   headers: {
     'Content-Type': 'application/json',
